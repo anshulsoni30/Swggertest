@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-10T19:20:38 IST" name="Suite" finished-at="2021-11-10T19:20:48 IST" duration-ms="9748">
+    <groups>
+    </groups>
+    <test started-at="2021-11-10T19:20:38 IST" name="AccessToken" finished-at="2021-11-10T19:20:42 IST" duration-ms="3901">
+      <class name="Admin.AccessToken">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Admin.AccessToken@7a5ceedd]" started-at="2021-11-10T19:20:38 IST" name="setUp" finished-at="2021-11-10T19:20:39 IST" duration-ms="910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="Admin()[pri:0, instance:Admin.AccessToken@7a5ceedd]" started-at="2021-11-10T19:20:39 IST" name="Admin" finished-at="2021-11-10T19:20:40 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin -->
+        <test-method is-config="true" signature="commonrequest()[pri:0, instance:Admin.AccessToken@7a5ceedd]" started-at="2021-11-10T19:20:40 IST" name="commonrequest" finished-at="2021-11-10T19:20:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonrequest -->
+        <test-method signature="accesstoken()[pri:0, instance:Admin.AccessToken@7a5ceedd]" started-at="2021-11-10T19:20:40 IST" name="accesstoken" finished-at="2021-11-10T19:20:42 IST" duration-ms="2647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accesstoken -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Admin.AccessToken@7a5ceedd]" started-at="2021-11-10T19:20:42 IST" name="tearDown" finished-at="2021-11-10T19:20:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Admin.AccessToken -->
+    </test> <!-- AccessToken -->
+    <test started-at="2021-11-10T19:20:42 IST" name="Adminlogin" finished-at="2021-11-10T19:20:44 IST" duration-ms="2183">
+      <class name="Admin.Adminlogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Admin.Adminlogin@58e1d9d]" started-at="2021-11-10T19:20:42 IST" name="setUp" finished-at="2021-11-10T19:20:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="Admin()[pri:0, instance:Admin.Adminlogin@58e1d9d]" started-at="2021-11-10T19:20:42 IST" name="Admin" finished-at="2021-11-10T19:20:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin -->
+        <test-method is-config="true" signature="commonrequest()[pri:0, instance:Admin.Adminlogin@58e1d9d]" started-at="2021-11-10T19:20:42 IST" name="commonrequest" finished-at="2021-11-10T19:20:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonrequest -->
+        <test-method signature="adminlogin()[pri:0, instance:Admin.Adminlogin@58e1d9d]" started-at="2021-11-10T19:20:42 IST" name="adminlogin" finished-at="2021-11-10T19:20:44 IST" duration-ms="2171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Admin.Adminlogin@58e1d9d]" started-at="2021-11-10T19:20:44 IST" name="tearDown" finished-at="2021-11-10T19:20:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Admin.Adminlogin -->
+    </test> <!-- Adminlogin -->
+    <test started-at="2021-11-10T19:20:44 IST" name="getcateorydetails" finished-at="2021-11-10T19:20:45 IST" duration-ms="690">
+      <class name="Admin.TC_015">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Admin.TC_015@69504ae9]" started-at="2021-11-10T19:20:44 IST" name="setUp" finished-at="2021-11-10T19:20:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="Admin()[pri:0, instance:Admin.TC_015@69504ae9]" started-at="2021-11-10T19:20:44 IST" name="Admin" finished-at="2021-11-10T19:20:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin -->
+        <test-method is-config="true" signature="commonrequest()[pri:0, instance:Admin.TC_015@69504ae9]" started-at="2021-11-10T19:20:44 IST" name="commonrequest" finished-at="2021-11-10T19:20:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonrequest -->
+        <test-method signature="listproductcatgory()[pri:0, instance:Admin.TC_015@69504ae9]" started-at="2021-11-10T19:20:44 IST" name="listproductcatgory" finished-at="2021-11-10T19:20:45 IST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listproductcatgory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Admin.TC_015@69504ae9]" started-at="2021-11-10T19:20:45 IST" name="tearDown" finished-at="2021-11-10T19:20:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Admin.TC_015 -->
+    </test> <!-- getcateorydetails -->
+    <test started-at="2021-11-10T19:20:45 IST" name="updatecateorydetails" finished-at="2021-11-10T19:20:47 IST" duration-ms="2337">
+      <class name="Admin.TC_016">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Admin.TC_016@475c9c31]" started-at="2021-11-10T19:20:45 IST" name="setUp" finished-at="2021-11-10T19:20:45 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="Admin()[pri:0, instance:Admin.TC_016@475c9c31]" started-at="2021-11-10T19:20:45 IST" name="Admin" finished-at="2021-11-10T19:20:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin -->
+        <test-method is-config="true" signature="commonrequest()[pri:0, instance:Admin.TC_016@475c9c31]" started-at="2021-11-10T19:20:45 IST" name="commonrequest" finished-at="2021-11-10T19:20:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonrequest -->
+        <test-method signature="addandupdatecategory()[pri:0, instance:Admin.TC_016@475c9c31]" started-at="2021-11-10T19:20:45 IST" name="addandupdatecategory" finished-at="2021-11-10T19:20:47 IST" duration-ms="2323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addandupdatecategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Admin.TC_016@475c9c31]" started-at="2021-11-10T19:20:47 IST" name="tearDown" finished-at="2021-11-10T19:20:47 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Admin.TC_016 -->
+    </test> <!-- updatecateorydetails -->
+    <test started-at="2021-11-10T19:20:47 IST" name="logout" finished-at="2021-11-10T19:20:48 IST" duration-ms="593">
+      <class name="Admin.logout">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Admin.logout@7fb4f2a9]" started-at="2021-11-10T19:20:47 IST" name="setUp" finished-at="2021-11-10T19:20:47 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="Admin()[pri:0, instance:Admin.logout@7fb4f2a9]" started-at="2021-11-10T19:20:47 IST" name="Admin" finished-at="2021-11-10T19:20:47 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin -->
+        <test-method is-config="true" signature="commonrequest()[pri:0, instance:Admin.logout@7fb4f2a9]" started-at="2021-11-10T19:20:47 IST" name="commonrequest" finished-at="2021-11-10T19:20:47 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonrequest -->
+        <test-method signature="adminlogout()[pri:0, instance:Admin.logout@7fb4f2a9]" started-at="2021-11-10T19:20:47 IST" name="adminlogout" finished-at="2021-11-10T19:20:48 IST" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Admin.logout@7fb4f2a9]" started-at="2021-11-10T19:20:48 IST" name="tearDown" finished-at="2021-11-10T19:20:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Admin.logout -->
+    </test> <!-- logout -->
+  </suite> <!-- Suite -->
+</testng-results>

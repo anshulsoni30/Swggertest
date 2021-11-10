@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="resources.ExtentReporterNG"/>
+</listeners>
+<test name="AccessToken">
+    <classes>
+      <class name="Admin.AccessToken"/>
+          </classes>
+      </test>
+      <test name="Adminlogin">
+    <classes>
+      <class name="Admin.Adminlogin"/>
+          </classes>
+      </test>
+      <test name="getcateorydetails">
+    <classes>
+      <class name="Admin.TC_015"/>
+          </classes>
+      </test>
+       <test name="updatecateorydetails">
+    <classes>
+      <class name="Admin.TC_016"/>
+          </classes>
+      </test>
+       <test name="logout">
+    <classes>
+      <class name="Admin.logout"/>
+          </classes>
+      </test>
+  <!-- Test -->
+</suite> <!-- Suite -->
